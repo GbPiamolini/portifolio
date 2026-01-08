@@ -29,6 +29,7 @@ body {
 }
 
 .apresentacao {
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -119,6 +120,6 @@ strong {
 .rodape {
     color: #000000;
     background-color: #22d4fd;
-    padding: 16px;
+    padding: 1.5%;
     text-align: center;
 }
