@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap');
+
+
+:root {
+    --cor-primaria: #F08787;
+    --cor-secundaria: #ffffff;
+
+    --fonte-texto: "Merriweather", serif;
+    --fonte-titulo: "Roboto", sans-serif;
+    --fonte-size-texto: 21px;
+    --fonte-size-titulo: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    padding: 1.5% 0% 1.5% 15%;
+    background-color: var(--cor-primaria);
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 2% 
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-titulo);
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-size: var(--fonte-size-texto);
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    min-height: 70vh;
+    padding: 5% 15%;
+}
+
+.apresentacao__conteudo {
+    display: flex;
+    gap: 80px;
+}
+
+.apresentacao__conteudo__titulo {
+    color: var(--cor-primaria);
+    font-size: var(--fonte-size-titulo);
+}
+
+.apresentacao__conteudo__imagem {
+    width: 250px;
+}
+
+.rodapé {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    text-align: center;
+    padding: 1.5%;
+    font-family: var(--fonte-titulo);
+    font-size: var(--fonte-size-texto);
+}
